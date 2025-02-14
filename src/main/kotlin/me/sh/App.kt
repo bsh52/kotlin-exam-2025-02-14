@@ -47,7 +47,11 @@ class App {
                     continue
                 }
 
-                println("입력한 id : $id")
+                val removed = wiseSayings.removeIf { it.id == id }
+
+                if (removed) {
+                    println("${id}번 명언을 삭제하였습니다.")
+                }
             }
         }
     }
