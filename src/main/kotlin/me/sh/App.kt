@@ -51,6 +51,8 @@ class App {
 
                 if (removed) {
                     println("${id}번 명언을 삭제하였습니다.")
+                } else {
+                    println("${id}번 명언이 존재하지 않습니다.")
                 }
             }
         }
