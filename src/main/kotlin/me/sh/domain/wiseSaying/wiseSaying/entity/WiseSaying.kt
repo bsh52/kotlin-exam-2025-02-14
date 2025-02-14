@@ -1,4 +1,4 @@
-package me.sh
+package me.sh.domain.wiseSaying.wiseSaying.entity
 
 class WiseSaying(
     val id: Int,
