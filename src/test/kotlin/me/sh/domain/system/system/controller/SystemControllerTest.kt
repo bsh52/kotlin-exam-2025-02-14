@@ -10,6 +10,6 @@ class SystemControllerTest {
     @DisplayName("종료")
     fun t1() {
         val result = TestRunner.run("")
-        assertThat(result).contains("프로그램을 종료합니다.")
+        assertThat(result).contains("프로그램을 종료합니다")
     }
 }
