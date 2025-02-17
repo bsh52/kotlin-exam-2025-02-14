@@ -1,4 +1,4 @@
-package me.sh
+package me.sh.global.rq
 
 class Rq(cmd: String) {
     val action: String

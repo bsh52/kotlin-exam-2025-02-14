@@ -1,6 +1,6 @@
 package me.sh.domain.wiseSaying.wiseSaying.controller
 
-import me.sh.Rq
+import me.sh.global.rq.Rq
 import me.sh.domain.wiseSaying.wiseSaying.service.WiseSayingService
 
 class WiseSayingController {

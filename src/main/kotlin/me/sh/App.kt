@@ -2,6 +2,7 @@ package me.sh
 
 import me.sh.domain.system.system.controller.SystemController
 import me.sh.domain.wiseSaying.wiseSaying.controller.WiseSayingController
+import me.sh.global.rq.Rq
 
 class App {
     fun run() {
